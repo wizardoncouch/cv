@@ -393,7 +393,7 @@ Class Profile
             'list'     => [
                 'PHP (Laravel, CodeIgniter)',
                 'Python (Django, Flask, Cherrypy)',
-                'Javascript (NodeJS, VueJs, AngularJs, Jquery, XHR/AJAX)',
+                'Javascript (NodeJS, VueJs, React, AngularJs, Jquery, XHR/AJAX)',
                 'Wordpress/Joomla',
                 'Gulp / Webpack',
                 'HTML / HTML5 / XHTML / Smarty / Blade - Templating',
@@ -587,13 +587,23 @@ Class Profile
         $list[] = [
             'title'   => 'Senior Web Application Developer',
             'from'    => '2016-03-01',
-            'to'      => date('Y-m-d'),
+            'to'      => '2018-07-31',
             'company' => 'Plus Telecom',
             'job'     => [
                 'Full Stack Web Applications Developer and Package Developer.',
                 'Responsible for creating packages ready to use for company related Web Applications.',
                 'Create server scripts that are usefull for the applications.',
                 'PHP, MySQL, Laravel PHP Framework, Python, Jquery, VueJS, Bootstrap, HTML.'
+            ],
+        ];
+        $list[] = [
+            'title'   => 'Web Application Developer',
+            'from'    => '2018-11-01',
+            'to'      => '2020-01-15',
+            'company' => 'GO Virtual Assistants Inc.,',
+            'job'     => [
+                'Full Stack Web Applications Developer.',
+                'Create a super awesome web application.',
             ],
         ];
 
